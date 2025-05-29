@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 1%;
+    margin: 1%;
+}
+aside{
+    padding: 5px;
+    background-color: rgb(204, 176, 230);
+    width: 20% ;
+    text-align: center;
+    margin-left: 5px;
+}
+header{
+    background-color: beige;
+    margin: 1%;
+    text-align: center;
+    padding: 5px;
+    
+}
+nav{
+    background-color: rgb(213, 213, 255);
+    
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+    font-size: 40px;
+}
+footer{
+    background-color: bisque;
+    margin: 1%;
+    padding: 1%;
+}
+article{
+    background-color: rgb(255, 214, 214);
+}
+main{
+    background-color: rgb(248, 212, 157);
+    padding: 1%;
+}
+section{
+    background-color: rgb(213, 253, 240);
+    padding: 1%;
+    margin: 5px;
+}

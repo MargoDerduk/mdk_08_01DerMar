@@ -1,0 +1,27 @@
+@keyframes boxx{
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: 300px;
+    }
+}
+.hj{
+    width: 500px;
+    position: relative;
+    height: 100px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    cursor: pointer;
+    position: absolute;
+}
+.hj:hover .box{
+    animation-name: boxx;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}

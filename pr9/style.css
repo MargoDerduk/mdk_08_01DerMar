@@ -1,0 +1,77 @@
+body{
+    padding: 10px;
+}
+.line{
+    list-style-type: none;
+}
+.line li{
+    display: inline-block;
+    margin: 10px;
+    background-color: pink;
+    padding: 20px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 30px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    background-color: blue;
+    color: white;
+}
+.blocks{
+    margin: 50px;
+}
+.blocks div{
+    display: inline;
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+}
+.blocks div:nth-child(5){
+    display: none;
+}
+.links-markers a{
+    display: list-item;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.image{
+    background-image: url(/pages/works/pr9/weather-blizzard.jpg);
+    width: 100px;
+    height: 100px;
+}
+.post1 .image{
+    float: left;
+}
+.post2 .image{
+    float: right;
+}
+.post1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.post1,.post2{
+    background-color: brown;
+    padding: 1px;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 5px;
+}
+.container img{
+    float: left;
+}
+.container .box .a{
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+.container .box .b{
+    text-align: center;
+}

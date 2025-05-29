@@ -1,0 +1,30 @@
+body{
+    margin: 20px;
+    text-align: center;
+}
+.name{
+    margin: 15px;
+}
+.password{
+    margin: 15px;
+}
+
+form{
+    background-color: rgb(216, 130, 238);
+    padding: 100px;
+    width: 200px;
+    border-radius: 20%;
+    text-align: center;
+}
+button{
+    margin: 10px 50px;
+    width: 100px;
+    cursor: pointer;
+}
+a{
+    margin: 15px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
